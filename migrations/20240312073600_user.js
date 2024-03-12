@@ -10,7 +10,6 @@ exports.up = function(knex) {
         table.string("email").notNullable(); 
         table.timestamps(true, true); 
       });    
-
 };
 
 /**
